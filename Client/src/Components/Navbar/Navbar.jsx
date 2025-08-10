@@ -7,7 +7,6 @@ import makeAnimated from "react-select/animated";
 import Context from "../../Context/Context";
 
 const animatedComponents = makeAnimated();
-
 //show only currency code
 const CustomSingleValue = (props) => {
   return (
@@ -66,7 +65,8 @@ const Navbar = () => {
       }`}
     >
       {/* Navbar main */}
-      <div className="w-3/5 p-2 flex justify-between items-center">
+      <div className="w-3/5 py-2 mt-4 shadow-md px-4 rounded-xl flex justify-between items-center bg-white">
+
         {/* LOGO */}
         <p className="text-lg uppercase font-semibold">SC-Flights</p>
 
